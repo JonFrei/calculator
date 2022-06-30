@@ -12,20 +12,8 @@
 
 *{
     font-family: 'Roboto Mono', monospace;
-}
-
-#header, #footer{
-    background-color: var(--Color5);
-    height: 50px;
-    width: 100%;
-
-    padding: 0px;
     margin: 0px;
-
-    font-size: 1.2em;
-
-    display: flex;
-    align-items: center;
+    padding: 0px;
 }
 
 body{
@@ -39,41 +27,10 @@ body{
 }
 
 #root{
-    height: calc(100vh - 100px);
+    height: 100vh;
 }
 
-h1{
-   
-    margin: 0px;
-    padding: 0.5em 0.25em 0.5em 5%;
 
-    display: flex;
-    align-items: center;
-
-    color: white;
-}
-
-#gitButton{
-    position: relative;
-    bottom: 10%;
-    width: 300px;
-
-    height: 75px;
-
-    border-style: solid;
-    border-radius: 5px;
-    border-color: var(--Color5);
-
-    background-color: #095256;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    background-color: unset;
-    width: 100%;
-    height: 100%;
-}
 
 @media only screen and (max-height: 600px) {
 
