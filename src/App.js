@@ -183,8 +183,10 @@ function App() {
 				</div>
 
 			</div>
-			<br></br>
-			
+			<div id="navigation-container">
+				<a id="return-btn" href="http://jonfrei.com/Resume_Project_Page/"><i className="large material-icons">arrow_back</i></a>
+				<a id="github-btn" href="https://github.com/JonFrei/drum-machine">View Project on GitHub</a>
+			</div>
 		</div>
   	);
 }
